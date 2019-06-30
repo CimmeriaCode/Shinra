@@ -9,7 +9,6 @@ namespace ShinraCo.Rotations
         public override async Task<bool> Combat()
         {
             if (Shinra.Settings.SummonerOpener) { if (await Helpers.ExecuteOpener()) return true; }
-            if (await Drain()) return true;
             if (await MiasmaIII()) return true;
             if (await Miasma()) return true;
             if (await BioIII()) return true;

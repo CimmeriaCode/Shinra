@@ -476,15 +476,6 @@ namespace ShinraCo.Rotations
             return false;
         }
 
-        private async Task<bool> Drain()
-        {
-            if (Shinra.Settings.SummonerDrain && Core.Player.CurrentHealthPercent < Shinra.Settings.SummonerDrainPct)
-            {
-                return await MySpells.Role.Drain.Cast();
-            }
-            return false;
-        }
-
         private async Task<bool> LucidDreaming()
         {
             if (Shinra.Settings.SummonerLucidDreaming && Core.Player.CurrentManaPercent < Shinra.Settings.SummonerLucidDreamingPct)

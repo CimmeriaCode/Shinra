@@ -14,7 +14,6 @@ namespace ShinraCo.Rotations
                 case Modes.Smart:
                 {
                     if (Shinra.Settings.RedMageOpener) { if (await Helpers.ExecuteOpener()) return true; }
-                    if (await Drain()) return true;
                     if (await EnchantedMoulinet()) return true;
                     if (await Scatter()) return true;
                     if (await Verholy()) return true;
@@ -34,7 +33,6 @@ namespace ShinraCo.Rotations
                 case Modes.Single:
                 {
                     if (Shinra.Settings.RedMageOpener) { if (await Helpers.ExecuteOpener()) return true; }
-                    if (await Drain()) return true;
                     if (await Verholy()) return true;
                     if (await Verflare()) return true;
                     if (await EnchantedRiposte()) return true;
@@ -51,7 +49,7 @@ namespace ShinraCo.Rotations
                 }
                 case Modes.Multi:
                 {
-                    if (await Drain()) return true;
+
                     if (await EnchantedMoulinet()) return true;
                     if (await Scatter()) return true;
                     return await Riposte();

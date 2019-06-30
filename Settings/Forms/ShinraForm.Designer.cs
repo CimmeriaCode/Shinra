@@ -1815,7 +1815,6 @@ namespace ShinraCo.Settings.Forms
             this.BlackMageDrain.Size = new System.Drawing.Size(51, 17);
             this.BlackMageDrain.TabIndex = 14;
             this.BlackMageDrain.TabStop = false;
-            this.BlackMageDrain.Text = "Drain";
             this.BlackMageDrain.UseVisualStyleBackColor = true;
             this.BlackMageDrain.CheckedChanged += new System.EventHandler(this.BlackMageDrain_CheckedChanged);
             // 
@@ -2209,7 +2208,6 @@ namespace ShinraCo.Settings.Forms
             this.RedMageDrain.Size = new System.Drawing.Size(51, 17);
             this.RedMageDrain.TabIndex = 2;
             this.RedMageDrain.TabStop = false;
-            this.RedMageDrain.Text = "Drain";
             this.RedMageDrain.UseVisualStyleBackColor = true;
             this.RedMageDrain.CheckedChanged += new System.EventHandler(this.RedMageDrain_CheckedChanged);
             // 
@@ -2782,7 +2780,6 @@ namespace ShinraCo.Settings.Forms
             this.SummonerDrain.Size = new System.Drawing.Size(51, 17);
             this.SummonerDrain.TabIndex = 12;
             this.SummonerDrain.TabStop = false;
-            this.SummonerDrain.Text = "Drain";
             this.SummonerDrain.UseVisualStyleBackColor = true;
             this.SummonerDrain.CheckedChanged += new System.EventHandler(this.SummonerDrain_CheckedChanged);
             // 

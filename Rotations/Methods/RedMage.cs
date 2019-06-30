@@ -289,15 +289,6 @@ namespace ShinraCo.Rotations
             return false;
         }
 
-		
-        private async Task<bool> Drain()
-        {
-            if (Shinra.Settings.RedMageDrain && Core.Player.CurrentHealthPercent < Shinra.Settings.RedMageDrainPct)
-            {
-                return await MySpells.Role.Drain.Cast();
-            }
-            return false;
-        }
 
         private async Task<bool> LucidDreaming()
         {

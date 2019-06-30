@@ -251,10 +251,10 @@ namespace ShinraCo.Spells.Main
         public Spell Impact { get; } = new Spell
         {
             Name = "Impact",
-            ID = 7522,
+            ID = 16526,
             Level = 66,
             GCDType = GCDType.On,
-            SpellType = SpellType.Damage,
+            SpellType = SpellType.AoE,
             CastType = CastType.Target
         };
 
@@ -277,5 +277,67 @@ namespace ShinraCo.Spells.Main
             SpellType = SpellType.Damage,
             CastType = CastType.Target
         };
+
+        //Shadowbringers
+        public Spell Engagement { get; } = new Spell
+        {
+            Name = "Engagement",
+            ID = 16527,
+            Level = 72,
+            GCDType = GCDType.Off,
+            SpellType = SpellType.Cooldown,
+            CastType = CastType.Target
+        };
+
+        public Spell Reprise { get; } = new Spell
+        {
+            Name = "Reprise",
+            ID = 16529,
+            Level = 76,
+            GCDType = GCDType.On,
+            SpellType = SpellType.Damage,
+            CastType = CastType.Target
+        };
+
+        public Spell EnchantedReprise { get; } = new Spell
+        {
+            Name = "Enchanted Reprise",
+            ID = 16528,
+            Level = 76,
+            GCDType = GCDType.On,
+            SpellType = SpellType.Damage,
+            CastType = CastType.Target
+        };
+
+        public Spell Scorch { get; } = new Spell
+        {
+            Name = "Scorch",
+            ID = 16530,
+            Level = 80,
+            GCDType = GCDType.On,
+            SpellType = SpellType.Damage,
+            CastType = CastType.Target
+        };
+
+        public Spell VeraeroII { get; } = new Spell
+        {
+            Name = "Veraero II",
+            ID = 16525,
+            Level = 22,
+            GCDType = GCDType.On,
+            SpellType = SpellType.AoE,
+            CastType = CastType.Target
+        };
+
+        public Spell VerthunderII { get; } = new Spell
+        {
+            Name = "Verthunder II",
+            ID = 16524,
+            Level = 18,
+            GCDType = GCDType.On,
+            SpellType = SpellType.AoE,
+            CastType = CastType.Target
+        };
+
     }
 }

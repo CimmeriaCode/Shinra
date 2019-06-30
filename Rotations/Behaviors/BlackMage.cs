@@ -25,7 +25,6 @@ namespace ShinraCo.Rotations
             if (await Swiftcast()) return true;
             if (await Sharpcast()) return true;
             if (await Thundercloud()) return true;
-            if (await Drain()) return true;
             if (await Foul()) return true;
             if (await ThunderIII()) return true;
             if (await Thunder()) return true;
@@ -40,7 +39,6 @@ namespace ShinraCo.Rotations
 
         private async Task<bool> Multi()
         {
-            if (await Drain()) return true;
             if (await Foul()) return true;
             if (await ThunderIV()) return true;
             if (await ThunderII()) return true;

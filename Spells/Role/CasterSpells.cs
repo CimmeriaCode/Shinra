@@ -22,15 +22,6 @@
             CastType = CastType.Target
         };
 
-        public Spell Drain { get; } = new Spell
-        {
-            Name = "Drain",
-            ID = 7564,
-            Level = 16,
-            GCDType = GCDType.On,
-            SpellType = SpellType.Damage,
-            CastType = CastType.Target
-        };
 
         public Spell Diversion { get; } = new Spell
         {
